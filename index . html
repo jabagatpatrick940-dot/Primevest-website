@@ -1,1 +1,40 @@
-<!DOCTYPE html> <html> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>PrimeVest Philippines</title> <style> * {margin:0; padding:0; box-sizing:border-box;} body {font-family:Arial, sans-serif; background:#f4f4f4; color:#333;} header {background:#0F2B48; color:white; padding:20px; text-align:center;} header h1 {font-size:20px; margin-bottom:5px;} section {padding:15px; max-width:100%;} .card {background:white; padding:15px; margin:10px 0; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.1);} .card h2 {color:#0F2B48; margin-bottom:10px; font-size:17px;} footer {background:#0F2B48; color:white; text-align:center; padding:12px; margin-top:15px; font-size:13px;} </style> </head> <body> <header> <h1>💰 PrimeVest Philippines</h1> <p>Mag-invest nang Matalino. Lumago nang Ligtas.</p> </header> <section> <div class="card"> <h2>✅ Gumagana na!</h2> <p>Maligayang Pagdating! Ito na ang iyong website — maayos na ang ayos!</p> </div> <div class="card"> <h2>ℹ️ Tungkol sa Atin</h2> <p>Nagbibigay kami ng gabay sa tamang pag-iimpok at pamumuhunan.</p> </div> </section> <footer>© 2026 PrimeVest Philippines — Lahat ng Karapatang Nakareserba</footer> </body> </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeVest - Main</title>
+    <!-- Gagamit tayo ng Tailwind CSS para maging maganda at modernong investment site agad -->
+    <script src="https://jsdelivr.net"></script>
+</head>
+<body class="bg-gray-950 text-white font-sans flex flex-col justify-center items-center min-h-screen p-6 text-center">
+
+    <!-- Main Container -->
+    <div class="max-w-md w-full bg-gray-900 border border-gray-800 rounded-2xl p-6 shadow-2xl">
+        <!-- Logo/Icon -->
+        <div class="text-5xl mb-4">💰</div>
+        
+        <!-- Title at Subtitle -->
+        <h1 class="text-3xl font-extrabold text-emerald-400 tracking-tight">PrimeVest</h1>
+        <p class="text-sm text-gray-400 mt-2 px-4">
+            Maligayang pagdating sa iyong ligtas at mabilis na platform para sa pagpapalago ng iyong pondo.
+        </p>
+
+        <!-- Feature List (Maliit na Impormasyon) -->
+        <div class="my-6 space-y-2 text-left bg-gray-950 p-4 rounded-xl border border-gray-800/50">
+            <p class="text-xs text-gray-300">✅ <span class="font-semibold text-white">Manual GCash:</span> Madaling cash-in at cash-out.</p>
+            <p class="text-xs text-gray-300">✅ <span class="font-semibold text-white">Secure Data:</span> Protektado ng Supabase.</p>
+            <p class="text-xs text-gray-300">✅ <span class="font-semibold text-white">Live Tracking:</span> Kita mo ang iyong ROI sa dashboard.</p>
+        </div>
+
+        <!-- Ang Main Button papunta sa Dashboard -->
+        <a href="dashboard.html" class="block w-full bg-emerald-500 hover:bg-emerald-600 text-white font-bold p-4 rounded-xl text-base transition-all shadow-lg shadow-emerald-500/20 active:scale-98">
+            🚀 Pumasok sa Dashboard
+        </a>
+        
+        <!-- Footer info -->
+        <p class="text-xxs text-gray-500 mt-6">© 2026 PrimeVest Website. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
